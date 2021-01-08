@@ -33,6 +33,24 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
+.btn {
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 12px 20px;
+  background-color: #555;
+  color: #fff;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: #8261ee;
+}
+
 .col-xl-7 {
   flex: 0 0 70%;
   max-width: 70%;
@@ -40,6 +58,40 @@ reset
 
 .offset-xl-15 {
   margin-left: 15%;
+}
+
+.content-container {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+.accordion>.card:first-of-type {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 45px;
+  border: none;
+}
+
+.accordion>.card:not(:first-of-type):not(:last-of-type) {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 45px;
+  border: none;
+}
+
+.accordion>.card:last-of-type {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 45px;
+  border: none;
+}
+
+.accordion>.card .card-header {
+  background: white;
+  padding: 18px;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
@@ -323,7 +375,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #000;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -653,7 +705,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/me2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -666,6 +718,7 @@ welcome
   transform: translateY(-55%);
   text-align: center;
   width: 100%;
+  text-shadow: 1px 1px 8px #000, 1px 1px 16px #000, 1px 1px 32px #000;
 }
 
 .welcome-area .header-text h1 {
@@ -1468,14 +1521,14 @@ footer .social li {
 
 footer .social li a {
   color: #9d5bd9;
-   text-align: center;
+  text-align: center, center;
   background-color: #fff;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   border-radius: 50%;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1491,13 +1544,12 @@ footer .copyright {
   text-align: center;
   border-top: 1px solid rgba(250,250,250,0.2);
   margin-top: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
-  letter-spacing: 0.88px;
-  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 991px) {
