@@ -34,6 +34,7 @@ reset
 --------------------------------------------- 
 */
 
+
 .btn {
   font-size: 20px;
   border-radius: 30px;
@@ -68,23 +69,23 @@ reset
 
 .accordion>.card:first-of-type {
   background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1), 0 2px 24px 0 rgba(0, 0, 0, 0.1);
   border-radius: 45px;
   border: none;
 }
 
 .accordion>.card:not(:first-of-type):not(:last-of-type) {
   background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1), 0 2px 24px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 35px;
+  margin-bottom: 35px;
   border-radius: 45px;
   border: none;
 }
 
 .accordion>.card:last-of-type {
   background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1), 0 2px 24px 0 rgba(0, 0, 0, 0.1);
   border-radius: 45px;
   border: none;
 }
@@ -185,7 +186,7 @@ body {
 
 .section {
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -375,10 +376,12 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #000;
+  background-color: #fff;
   text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
+  text-shadow: none;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 0.5px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -387,6 +390,7 @@ a.main-button-slider {
 
 a.main-button-slider:hover {
   background-color: #8261ee;
+  color: #fff;
 }
 
 a.main-button {
